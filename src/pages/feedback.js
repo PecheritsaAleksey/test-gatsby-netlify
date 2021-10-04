@@ -8,6 +8,8 @@ const FeedbackPage = () => {
       <Seo title="Feedback" />
       <h1>Send me your feedback!</h1>
       <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>
             Your Name: <input type="text" name="name" />
