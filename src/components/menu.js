@@ -28,6 +28,9 @@ const Menu = () => {
         <li>
           <Link to="/blog">Blog</Link>
         </li>
+        <li>
+          <Link to="/feedback">Feedback</Link>
+        </li>
       </ul>
     </div>
   )
